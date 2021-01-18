@@ -10,7 +10,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/Ulme007/flux2-q-kubernetes
+  url: https://github.com/Ulme007/flux2-q-kubernetes
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
 kind: Kustomization
